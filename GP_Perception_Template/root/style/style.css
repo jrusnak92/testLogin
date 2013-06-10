@@ -1,0 +1,224 @@
+body { margin:0px; }
+
+/* PAGE TOP */
+#pageTop {
+	background:url(header-sliver.png) repeat-x; 
+	height:102px;	
+}
+#pageTop > #pageTopWrap {
+	width:810px;
+	margin:0px auto;
+	height:102px;
+}
+#pageTop > #pageTopWrap > #pageTopLogo {
+	float:left;
+	height:102px;
+	width:125px;
+}
+#pageTop > #pageTopWrap > #pageTopRest {
+	float:left;
+	height:102px;
+	width:685px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 {
+	height:50px;
+	width:685px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div {
+	margin-top:8px;
+	text-align:right;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu1 > div > a {
+	padding:0px 5px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 {
+	height:52px;
+	width:685px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div {
+	margin:0px;
+}
+#pageTop > #pageTopWrap > #pageTopRest > #menu2 > div > a {
+	padding:0px 5px;
+}
+
+/* PAGE MIDDLE */
+#pageMiddle {
+	width:810px;
+	min-height:1300px;
+	background-color:#ccc;
+	margin:0px auto;
+}
+#pageMiddle h1 {
+	text-align:center;
+}
+#pageMiddle form {
+	text-align:center;
+	border:#333 2px solid;
+	margin:0px auto;
+	padding:10px 0px 20px 0px;
+	width:50%;
+}
+#pageMiddle > #mainMenu {
+	width:810px;
+	min-height:350px;
+	margin:0px auto;
+}
+#pageMiddle > #mainMenu > #mainMenuLeft {
+	float:left;
+	width:405px;
+	margin:55px 0px 20px 0px;
+}
+#pageMiddle > #mainMenu > #mainMenuLeft div {
+	float:right;
+	width:280px;
+	padding-right:10px;
+}
+#pageMiddle > #mainMenu > #mainMenuLeft div img {
+	padding:7px 0px;
+}
+#pageMiddle > #mainMenu > #mainMenuRight {
+	float:left;
+	width:405px;
+	margin:55px 0px 20px 0px;
+}
+#pageMiddle > #mainMenu > #mainMenuRight div {
+	float:left;
+	width:280px;
+	padding-left:10px;
+}
+#pageMiddle > #mainMenu > #mainMenuRight div img {
+	padding:7px 0px;
+}
+#pageMiddle > #locationsMenu {
+	background:url(../images/locationsMenu.png) no-repeat;
+	float:left;
+	width:405px;
+	margin:0px auto;
+}
+#pageMiddle > #locationsMenu > div {
+	display:block;
+	margin:85px 0px 0px 25px;
+	text-align:center;
+}
+#pageMiddle > #objectives {
+	background:url(../images/objectivesMenu.png) no-repeat;
+	float:left;
+	width:405px;
+	margin:0px auto;
+}
+#pageMiddle > #objectives > div {
+	display:block;
+	margin:85px 0px 0px 5px;
+	text-align:center;
+}
+#pageMiddle > #locations {
+	background:url(../images/locationsPageBG.png) no-repeat;
+	min-height:900px;
+	margin:0px auto;
+}
+#pageMiddle > #locations img {
+	margin-top:520px;
+	margin-left:0px;
+}
+#pageMiddle > #southernCalifornia {
+	background:url(../images/southernCaliforniaInfo2.png) no-repeat;
+	float:left;
+	width:405px;
+	margin:0px auto;
+	min-height:525px;
+}
+#pageMiddle > #southernCalifornia > div {
+	width:299px;
+	margin:310px 0px 0px 52px;
+}
+#pageMiddle > #southernCalifornia > div h2,h3 {
+	text-align:center;
+	padding:10px;
+}
+#pageMiddle > #southernCalifornia > div h1 {
+	text-align:center;
+}
+#pageMiddle > #lasVegas {
+	background:url(../images/lasVegasInfo2.png) no-repeat;
+	float:left;
+	width:405px;
+	margin:0px auto;
+	min-height:525px;
+}
+#pageMiddle > #lasVegas > div {
+	width:299px;
+	margin:310px 0px 0px 52px;
+}
+#pageMiddle > #lasVegas > div h2,h3 {
+	text-align:center;
+	padding:10px;
+}
+#pageMiddle > #lasVegas > div h1 {
+	text-align:center;
+}
+#pageMiddle > #charlotte {
+	background:url(../images/charlotteInfo.png) no-repeat;
+	float:left;
+	width:0px;
+	margin:0px auto;
+	min-height:525px;
+}
+#pageMiddle > #charlotte > div {
+	width:210px;
+	margin:275px 0px 0px 30px;
+}
+#pageMiddle > #charlotte > div h1,h2,h3 {
+	text-align:center;
+}
+#pageMiddle > #socialMedia {
+	margin:10px auto;
+	max-width:550px;
+}
+#pageMiddle > #socialMedia img {
+	margin:0px auto;
+	width:150px;
+	height:150px;
+	padding:0px 15px;
+}
+#pageMiddle > #services {
+	background:url(../images/servicesListBG.png) no-repeat;
+	width:810px;
+	min-height:600px;
+	margin:0px auto;
+}
+#pageMiddle > #services > #servicesLeft {
+	float:left;
+	width:405px;
+	margin:65px 0px 0px 0px;
+}
+#pageMiddle > #services > #servicesLeft div {
+	float:right;
+	width:260px;
+	padding-right:10px;
+}
+#pageMiddle > #services > #servicesLeft div img {
+	padding:7px 0px;
+}
+#pageMiddle > #services > #servicesRight {
+	float:left;
+	width:405px;
+	margin:65px 0px 0px 0px;
+}
+#pageMiddle > #services > #servicesRight div {
+	float:left;
+	width:260px;
+	padding-left:10px;
+}
+#pageMiddle > #services > #servicesRight div img {
+	padding:7px 0px;
+}
+
+/* PAGE BOTTOM */
+#pageBottom {
+	text-align:center;
+	color:#FFF;
+	font-size:24px;
+	padding:24px;
+	background:url(footer-sliver.png) repeat-x;
+}
